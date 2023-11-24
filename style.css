@@ -1,0 +1,81 @@
+  @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500&family=Kdam+Thmor+Pro&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  }
+
+  header{
+    height: 20vh;
+    margin-bottom: 20px;
+  }
+  .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+    flex-wrap: wrap;
+    gap : 20px;
+    font-family: 'Open sans';
+    padding-bottom : 20px;
+    padding : 30px;
+  }
+
+  .card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    /* width : 100%; */
+  }
+
+  header{
+    text-align: center;
+    color :#ffffff;
+  }
+
+  .card h1{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color:brown ;
+  }
+
+  .dnt{
+    font-size: 14px;
+    color: darkblue;
+  }
+
+  .card .dets{
+    font-size: 17px;
+    color:rgb(65, 83, 35);
+  }
+
+  .card2 ol li {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 400;
+    text-align: left;
+  }
+
+  .card .rules{
+    text-align: left;
+    margin-left : 10px;
+  }
+
+  .card ul li{
+    text-align: left;
+  }
+
+  button{
+    padding : 12px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color:lightskyblue;
+    color : #fff;
+    font-size: 17px;
+  }
