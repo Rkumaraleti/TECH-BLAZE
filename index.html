@@ -5,20 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <title>TECH BLAZE</title>
-  <link rel="stylesheet" href="style.css" />
-  <body>
-    <header>
-        <h1>TECH BLAZE</h1>
-        <h2>Igniting the spirit of Innovation</h2>
+  <!-- <link rel="stylesheet" href="style.css" /> -->
 
-        <a target="_blank" href="https://forms.gle/3GyNbCUHxNtimXbK8"
-          ><button>Register</button></a
-        >
-    <div class="container">
-      
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="styles.css">
+
+
+  <body>
+    <nav class="navbar ml-auto">
+      <ul>
+        <li><a target="_blank" href="https://forms.gle/3GyNbCUHxNtimXbK8">Register</a></li>
+        <li><a href="#competitions">Competitions</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </nav>
+    <div class="text-center">
+    <header>
+      <div class="header-items">
+        <h1>TECH BLAZE</h1>
+        <h3>Igniting the spirit of Innovation</h3>
+
+        <a target="_blank" href="https://forms.gle/3GyNbCUHxNtimXbK8"><button class="btn btn-primary register p-2 m-5">Register</button></a>
       </header>
-      <div class="card card1">
-        <h1 class="eventName">BUZZ THE BUG</h1>
+      </div>
+      </div>
+
+
+
+      <div class="container" id="competitions">
+        <div class="competitions">
+        <h1 class="text-center pt-3 text-light">Competitions:</h1>
+      <div class="card card1 m-5 text-center">
+        <h2 class="eventName display-2">BUZZ THE BUG</h2>
+        <div class="card-info mt-4">
         <h3 class="dnt">
           DATE : 30-11-2023
           <br />
@@ -38,10 +60,12 @@
           <li>2 TEAMS ARE ALLOWED FROM EACH COLLEGE</li>
           <li>TEAM SHOULD CONSIST OF 2 MEMBERS.</li>
         </ul>
+        </div>
       </div>
 
-      <div class="card card2">
-        <h1 class="eventName">PRESENTOGRAM</h1>
+      <div class="card card2 m-5 text-center">
+        <h2 class="eventName display-2">PRESENTOGRAM</h2>
+        <div class="card-info mt-4">
         <h3 class="dnt">
           DATE : 30-11-2023
           <br />
@@ -64,9 +88,11 @@
           <li>SOFT COPY SHOULD BE SUBMITTED 30 MINS PRIOR THE EVENT.</li>
         </ul>
       </div>
+      </div>
 
-      <div class="card card3">
-        <h1 class="eventName">THINK BOTS</h1>
+      <div class="card card3 m-5 text-center">
+        <h2 class="eventName display-2">THINK BOTS</h2>
+        <div class="card-info mt-4">
         <h3 class="dnt">
           DATE : 01-12-2023
           <br />
@@ -74,15 +100,19 @@
         </h3>
         <h3 class="dets">QUIZ WILL BE CONDUCTED IN 3 ROUNDS</h3>
 
-        <h4>
-          ROUND 1 : QUESTIONS ON BASIC COMPUTERS AND COMPUTER SCIENCE
-          <br />
-          ROUND 2 : QUESTIONS BASED ON GUESSING OF LOGOS, FAMOUS SCIENTISTS,AND
+        <ul>
+          <li>
+          <strong>ROUND 1 :</strong> QUESTIONS ON BASIC COMPUTERS AND COMPUTER SCIENCE
+          </li>
+          <li>
+          <strong>ROUND 2 :</strong> QUESTIONS BASED ON GUESSING OF LOGOS, FAMOUS SCIENTISTS,AND
           THE LANGUAGE BY ITS SYNTAX.
-          <br />
-          ROUND 3 : THE PARTICIPANTS WILL CHOOSE ANY OF THE GIVEN TOPICS AND
+          </li>
+          <li>
+          <strong>ROUND 3 :</strong> THE PARTICIPANTS WILL CHOOSE ANY OF THE GIVEN TOPICS AND
           QUESTIONS WILL BE ASKED ON THAT TOPIC
-        </h4>
+          </li>
+        </ul>
         <h3 class="rules">RULES :</h3>
         <ul>
           <li>2 TEAMS ARE ALLOWED FROM EACH COLLEGE</li>
@@ -90,9 +120,11 @@
           <li>EACH ROUND WILL HAVE ELIMINATIONS.</li>
         </ul>
       </div>
+      </div>
 
-      <div class="card card4">
-        <h1 class="eventName">INNOSHOWCASE</h1>
+      <div class="card card4 m-5 text-center">
+        <h2 class="eventName display-2">INNOSHOWCASE</h2>
+        <div class="card-info mt-4">
         <h3 class="dnt">
           DATE : 01-12-2023
           <br />
@@ -113,5 +145,20 @@
         </ul>
       </div>
     </div>
+    </div>
+    </div>
+    </div>
+
+    <footer class="footer bg-dark text-light text-center pt-4" id="about">
+      <h3>Contact Us:</h3>
+      <ul class="d-flex p-3 text-center">
+        <li class="p-3">Ph: 9248186299</li>
+        <li class="p-3">Ph: 9100287343</li>
+        <li class="p-3">Ph: 9515653337</li>
+      </ul>
+    </footer>
+
+    <!-- Boot Strap -->
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
